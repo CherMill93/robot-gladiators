@@ -96,7 +96,7 @@ var startGame = function (){
     }
     // if player isn't alive, stop the game
     else {
-      console.log("player health <")
+      console.log("player health < 0")
       window.alert('You have lost your robot in battle! Game Over!');
         //after the loop ends, player is either out of health or enemies to fight, so run the endGame function
       endGame();
